@@ -3,9 +3,18 @@
   <% if @reservations.any? %>
     <% @reservations.each do |reservation| %>
       <div class="reservation-card reservation-card-infos">
+
+    <% if camera.photo.attached? %>
         <%= link_to camera_path(reservation.camera.photo) do %>
           <%= image_tag reservation.camera.photo %>
         <% end %>
+        <% else %>
+    <div class="d-flex align-items-center card-img-top justify-content-center text-white" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<%= asset_path('no-photo.png') %>); background-size:cover; background-position:center; height:250px;">
+            Please Upload a picture
+          </div>
+      <% end %>
+
+
         <div>
           <h3><%= reservation.camera.brand %> <%= reservation.camera.model %></h3>
           <p><%= reservation.start_date.strftime('%B %d, %Y') %> to

@@ -5,7 +5,13 @@
   <% @cameras.each do |camera| %>
     <div class="card mb-4">
       <div class="card-body d-flex flex-column flex-md-row">
+      <% if camera.photo.attached? %>
         <%= link_to image_tag(camera.photo, class: "card-img-top img-fluid", style: "max-width: 400px; height: auto; margin: 0 auto;"), camera_path(camera) %>
+      <% else %>
+       <div class="d-flex align-items-center card-img-top justify-content-center text-white" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<%= asset_path('no-photo.png') %>); background-size:cover; background-position:center; height:250px;">
+        Please Upload a picture
+      </div>
+     <% end %>
         <div class="card-body">
           <h5 class="card-title"><%= camera.brand %> <%= camera.model %></h5>
 

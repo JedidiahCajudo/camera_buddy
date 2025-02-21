@@ -13,6 +13,7 @@ class Owner::ReservationsController < ApplicationController
   def show
     @camera = Camera.find(params[:id])
     @reservations = @camera.reservations
+    
   end
 
   # Update the status of a reservation (e.g., accept or reject)
