@@ -1,4 +1,4 @@
-# 📸 Rent-A-Cam
+# 📸 Borrow or Lend Your Gear
 
 An Airbnb-style marketplace for renting and lending cameras.  
 Why buy a pricey camera for one project when you can rent one?  
