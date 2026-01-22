@@ -1,4 +1,4 @@
-# 📸 Borrow or Lend Your Gear
+# Borrow or Lend Your Gear
 
 An Airbnb-style marketplace for renting and lending cameras.  
 Why buy a pricey camera for one project when you can rent one?  
@@ -6,7 +6,7 @@ And if you’ve got gear collecting dust—list it, and start earning.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🧾 List your camera with price, description, and availability  
 - 🔍 Browse and rent cameras for short-term projects  
@@ -16,7 +16,7 @@ And if you’ve got gear collecting dust—list it, and start earning.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Ruby on Rails**
 - **PostgreSQL**
@@ -26,7 +26,7 @@ And if you’ve got gear collecting dust—list it, and start earning.
 
 ---
 
-## 📦 Setup
+## Setup
 
 bash
 git clone https://github.com/your-username/rent-a-cam.git
