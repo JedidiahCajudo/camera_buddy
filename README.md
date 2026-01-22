@@ -28,12 +28,12 @@ And if you’ve got gear collecting dust—list it, and start earning.
 
 ## Setup
 
-bash
+```
 git clone https://github.com/your-username/rent-a-cam.git
 cd rent-a-cam
 bundle install
 rails db:create db:migrate
 rails server
-
+```
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
