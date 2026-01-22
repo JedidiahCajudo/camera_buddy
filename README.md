@@ -29,8 +29,6 @@ And if you’ve got gear collecting dust—list it, and start earning.
 ## Setup
 
 ```
-git clone https://github.com/your-username/rent-a-cam.git
-cd rent-a-cam
 bundle install
 rails db:create db:migrate
 rails server
