@@ -8,11 +8,11 @@ And if you’ve got gear collecting dust—list it, and start earning.
 
 ## Features
 
-- 🧾 List your camera with price, description, and availability  
-- 🔍 Browse and rent cameras for short-term projects  
-- 💼 Owners get paid when their gear gets booked  
-- 🔐 Secure user accounts with Devise  
-- ⚡ Built with Ruby on Rails, Bootstrap, and PostgreSQL  
+-  List your camera with price, description, and availability  
+-  Browse and rent cameras for short-term projects  
+-  Owners get paid when their gear gets booked  
+-  Secure user accounts with Devise  
+-  Built with Ruby on Rails, Bootstrap, and PostgreSQL  
 
 ---
 
